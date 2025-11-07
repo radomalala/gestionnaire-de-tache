@@ -1,45 +1,59 @@
-# gestionnaire-de-tache
-TD React avec typescript pour la création applicatoin gestionnaire de tâches
+# GestionnaireTaches
 
-Ce projet est conçu pour la séance d'introduction à TypeScript (TS), au gestionnaire de paquets npm, et à la chaîne d'outils de développement moderne. L'objectif est de comprendre le rôle du typage statique et la compilation TS vers JS.
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.9.
 
-# Prérequis
-Assurez-vous que les outils suivants sont installés sur votre machine :
+## Development server
 
-Node.js et npm : (Node Package Manager).
+To start a local development server, run:
 
-Vérification : Ouvrez votre terminal et tapez :
+```bash
+ng serve
+```
 
-Bash
+Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-node -v
-npm -v
-Visual Studio Code (VS Code) : L'éditeur de code recommandé.
+## Code scaffolding
 
-Git : Système de contrôle de version.
+Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
-💻 Phase d'Installation et Configuration
-Suivez ces étapes pour cloner le dépôt et configurer l'environnement de travail.
+```bash
+ng generate component component-name
+```
 
-Étape 1 : Cloner le Dépôt
-Ouvrez votre terminal ou invite de commande et clonez le dépôt Git :
+For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
-Bash
+```bash
+ng generate --help
+```
 
-git clone [URL_DE_VOTRE_DEPOT]
-cd td-ts-seance2
-Étape 2 : Installation des Dépendances
-Nous avons besoin de TypeScript et de ts-node (pour exécuter le code TS directement).
+## Building
 
-Bash
+To build the project run:
 
-# Installe toutes les dépendances listées dans package.json
-npm install
-Rappel : Cette commande crée le dossier node_modules et installe TypeScript et ts-node en tant que dépendances de développement.
+```bash
+ng build
+```
 
-Étape 3 : Initialisation de TypeScript
-Cette commande génère le fichier de configuration tsconfig.json que nous utiliserons pour paramétrer la compilation.
+This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
-Bash
+## Running unit tests
 
-npx tsc --init
+To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+
+```bash
+ng test
+```
+
+## Running end-to-end tests
+
+For end-to-end (e2e) testing, run:
+
+```bash
+ng e2e
+```
+
+Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+
+## Additional Resources
+
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
